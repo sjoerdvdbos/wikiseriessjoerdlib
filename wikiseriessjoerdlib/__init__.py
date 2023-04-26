@@ -32,6 +32,7 @@ Import all parts from wikiseriessjoerdlib here
    https://google.github.io/styleguide/pyguide.html
 """
 from ._version import __version__
+from .wikiseriessjoerdlib import search_series
 
 __author__ = '''Sjoerd van den Bos <test@example.com>'''
 __docformat__ = '''google'''
@@ -44,3 +45,4 @@ __status__ = '''Development'''  # "Prototype", "Development", "Production".
 
 # This is to 'use' the module(s), so lint doesn't complain
 assert __version__
+assert search_series
