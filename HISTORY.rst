@@ -19,3 +19,9 @@ History
 ------------------
 
 * Fixing main branch and import
+
+
+0.1.2 (26-04-2023)
+------------------
+
+* Change file to main module and fix import.
